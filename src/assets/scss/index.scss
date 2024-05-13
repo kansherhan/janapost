@@ -1,0 +1,32 @@
+@import "fonts";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "PT Root UI", sans-serif;
+  font-style: normal;
+}
+
+body {
+  font-size: 16px;
+
+  color: #1c1b1f;
+  background: #fff;
+}
+
+.container {
+  width: 1168px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@import "components/button";
+@import "components/text-input";
+@import "components/selected-country";
+
+@import "views/main.view";
+@import "views/our-branches.view";

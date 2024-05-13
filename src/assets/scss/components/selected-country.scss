@@ -1,0 +1,32 @@
+.selected-country {
+  position: fixed;
+  bottom: 40px;
+  right: -100px;
+  padding: 12px;
+  z-index: 100;
+  background-color: #f1f2f4;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow:
+    5px 10px 20px rgba(0, 0, 0, 0.19),
+    0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 150px;
+  transition: all 0.4s ease;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &:hover {
+    right: 0;
+  }
+
+  img {
+    width: 25px;
+    cursor: pointer;
+
+    &.active {
+      border-bottom: 0.5px solid #1b8918;
+      order: -1;
+    }
+  }
+}

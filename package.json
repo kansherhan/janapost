@@ -1,0 +1,24 @@
+{
+  "name": "janapost",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "sass": "^1.77.1",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.13.1",
+    "vue-router": "^4.2.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "prettier": "3.2.5",
+    "vite": "^5.2.0"
+  }
+}
